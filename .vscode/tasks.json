@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "compilar y ejecutar",
+		"type": "shell",
+		"command": "gcc",
+		"args": [
+		  "-g",
+		  "conversion.c",
+		  "-o",
+		  "convesion.exe"
+		],
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		},
+		"problemMatcher": ["$gcc"],
+		"detail": "Compilar programa C"
+	  }
+	]
+  }
